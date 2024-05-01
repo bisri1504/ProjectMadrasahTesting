@@ -1,0 +1,108 @@
+<!DOCTYPE html><html>
+    <head>
+        <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>MIS Darul Ulum Kuranji</title>
+    </head>
+    <body>
+        <header>
+            <div class="navigation-logo">
+                <img src="/asset/logo.png" alt="Logo">
+                <p><strong>MIS Darul Ulum Kuranji</strong></p>
+            </div>
+        
+            <nav>
+                <div class="navigation-button">
+                    <ul>
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#">Sarpras</a></li>
+                        <li><a href="#">Galeri</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="content">
+                <article class="kartu">
+                    <img src="/asset/perkenalan.jpg" alt="Gambar" class="fitur-gambar">
+                    <h1>Halo <span id="name"></span>, Selamat Datang di MIS Darul Ulum Kuranji</h1>
+                    <p>Mari kita berkenalan terlebih dahulu dengan MIS Darul Ulum Kuranji
+                    </p>
+                </article>
+                <script>
+                    let name = prompt ("masukkan nama kamu");
+                    document.getElementById("name").innerText = name;
+                </script>
+                <article class="kartu">
+                    <img src="/asset/perkenalan-2.jpg" alt="Gambar" class="fitur-gambar">
+                    <h3>Mengapa Harus di MIS Darul Ulum Kuranji?</h3>
+                        <p>Madrasah Ibtidaiyah Swasta Darul Ulum kuranji merupakan salah satu madrasah unggulan di tingkat SD/MI.
+                            Madrasah ini sudah terbukti menghasilkan alumni-alumni yang berprestasi dan mampu bersaing dengan sekolah lain. 
+                            Baik ditingkat kabupaten, Provinsi, maupun Nasional.
+                        </p>
+                </article>
+                <article class="kartu">
+                    <img src="/asset/pendaftaran.jpg" alt="Gambar" class="fitur-gambar">
+                    <h3>Informasi PPDB</h3>
+                    <p>Informasi Penerimaan Peserta Didik Baru dapat dilihat melalui website ini, melalui media sosial facebook (MiS Darul Ulum xxx),
+                        Instagram (MIS Darul Ulum xxx), maupun melalui nomor admin atas nama Sri (08xxxxxxxxxx).
+                    </p>
+                    <section>
+                        <h5>Syarat Pendaftaran</h5>
+                        <p>Terdapat beberapa persyaratan yang perlu dipenuhi oleh siswa, yakni:
+                            <ol>
+                                <li>Akta Kelahiran</li>
+                                <li>Ijazah TK</li>
+                                <li>Pas Foto ukuran 4x5 sebanyak 2 lembar</li>
+                            </ol>
+                        </p>
+                    </section>
+                    <section>
+                        <h5>Waktu dan Tempat Pendaftaran</h5>
+                        <p>Berkas pendaftaran dikumpulkan ke MIS Darul Ulum Kuranji. Adapun waktu pendaftaram dibuka sejak Maret s/d Mei 20xx
+                        </p>
+                    </section>
+                </article>
+            </div>
+            <aside>
+                <div class="header">
+                    <h3>Visi Misi Madrasah</h3>
+                </div>
+                <section>
+                    <figure>
+                        <figcaption>
+                            <img src="/asset/juara.jpg" alt="Gambar" class="fitur-gambar">
+                        </figcaption>
+                    </figure>
+                    <table>
+                        <tr>
+                            <th> Visi Madrasah</th>
+                        </tr>
+                        <tr>
+                            <td>"Terwujudnya siswa yang islami, unggul, dan terampil</td>
+                        </tr>
+                        <tr>
+                            <th>Misi Madrasah</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br>1. Membiasakan peserta didik melaksanakan ibadah wajib dan sunnah
+                                <br>2. Melaksanakan pembiasaan 5S (senyum, sapa, santun, dan sopan)
+                                <br>3. Melaksanakan kegiatan intra dan ekstrakulikuler sesuai dengan minat dan bakat siswa
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+                <!--Buat Tabel Sekolah disini-->
+            </aside>
+        </main>
+        <footer class="wrapper">
+            <p>@ 2024 MIS Darul Ulum Kuranji</p>
+            <p>Informasi lebih lanjut hubungi 08xxxxxxxxxx</p>
+        </footer>
+    </body>
+</html>
