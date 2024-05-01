@@ -7,6 +7,159 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <title>MIS Darul Ulum Kuranji</title>
+        <style>
+          * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+   text-align: center;
+}
+
+header {
+   position: sticky;
+    top: 0;
+}
+
+ header .navigation-logo {
+   display:flex; 
+   flex-direction: row;
+    background-color: #304D30;
+    color: #EEEEEE;
+    width: 100%;
+    justify-content: center;
+ }
+
+ header .navigation-logo img {
+    height: 5rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: -3.5rem;
+ }
+
+ header .navigation-logo p {
+    font-size: 1.5rem;
+    margin-left: -1.5rem;
+ }
+
+ nav {
+   background-color: #163020;
+    padding: 5px;
+ }
+
+ nav .navigation-button {
+    /*isi sama bentuk dan custom warna*/
+    display:flex; 
+    flex-direction: row;
+    color: #EEEEEE;
+    width: 100%;
+    justify-content:end;  
+ }
+
+ nav .navigation-button ul {
+    display: flex;
+    gap: 0.5rem;
+    padding-inline: 4rem;
+   
+ }
+
+ nav .navigation-button li {
+    flex-direction: column;
+    list-style: none;
+    align-content: flex-end;
+ }
+
+nav .navigation-button li a {
+    text-decoration: none;
+    color: #EEEEEE;
+    padding: 1rem 1rem;
+ }
+
+ nav .navigation-button li a:hover {
+   background-color: #304D30;
+   padding: 1rem 1rem;
+   transition: all 0.5s;
+   border-radius: 10px;
+ }
+
+ .fitur-gambar {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+   
+ }
+
+ main {
+   display: flex;
+   gap: 1rem;
+   background-color:#DDDDDD;
+   padding-bottom: 1.5rem;
+ }
+
+ main #content {
+   flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+ }
+
+ .kartu {
+   box-shadow: 0 4px 8px 0 #163020;
+    border-radius: 5px;
+    padding: 20px;
+ }
+
+ aside {
+   flex: 1;
+   margin-right: 1rem;
+}
+
+table {
+   text-align: justify;
+}
+
+td {
+   padding-bottom: 3.5rem;
+}
+
+ footer {
+   padding: 20px;
+    color: #EEEEEE;
+    background-color: #304D30;
+    text-align: center;
+    font-weight: bold;
+ }
+
+@media screen and (max-width:768px) {
+   nav .navigation-button {
+      justify-content:center;
+      
+   }
+
+   main {
+      flex-flow: column nowrap;
+  }
+
+  .kartu {
+   margin: 1rem;
+  }
+
+  main aside {
+      align-self: center;
+      margin: 1rem;
+  }
+
+}
+ /* green 163020, sage 304D30, grey DDDDDD, winter EEEEEE */  
+        </style>
     </head>
     <body>
         <header>
